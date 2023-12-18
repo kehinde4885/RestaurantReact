@@ -1,7 +1,7 @@
-import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import "./App.css";
 
-const App = () => {
-  return <div>My name is Kehinde</div>;
-};
-
+function App() {
+  return <Navbar />;
+}
 export default App;
